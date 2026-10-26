@@ -1582,11 +1582,7 @@
       <p>
         Join the Waitlist and get early access.
       </p>
-<form
-        action="https://mailchi.mp/57ca8b5bf23a/waitlist"
-        method="post"
-        target="_blank"
-      >
+
       <div class="role-options">
 
         <button class="role active" id="userRole" onclick="selectRole('user')">
@@ -1603,10 +1599,16 @@
 
       <input class="form-input" type="email" placeholder="Email address">
 
-      <button class="modal-submit" type="submit" onclick="joinPortal()">
-        Continue →
-      </button>
-</form>
+   
+<button
+  type="button"
+  class="modal-submit"
+  onclick="window.location.href='https://mailchi.mp/57ca8b5bf23a/waitlist'"
+>
+  Continue →
+</button>
+
+
     </div>
 
   </div>
